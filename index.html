@@ -3,7 +3,7 @@ Hello World
 <script language="javascript">
 
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then(function(reg) {
+    navigator.serviceWorker.register('sw.js').then(function(reg) {
       console.log('Registered!', reg);
     }).catch(function(err) {
       console.log('Failed!', err);
